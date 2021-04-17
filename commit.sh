@@ -2,12 +2,13 @@
 echo "Enter Commit Messge"
 read message
 git add .
-git commit -m "$(date +%m-%d-%Y) $message"
+git commit -m "$(date +%F) $message" --author="Ashish Singh"
 echo "Push To Remote ?"
 read option
 if option="Y"
 then
-  git push
+  git remote set-url origin git@github.com:ashishsingh2022/Competative_Coding.git
+  git push -u origin main
 fi
 
 

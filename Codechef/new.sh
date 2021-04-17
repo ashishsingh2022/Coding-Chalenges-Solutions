@@ -6,7 +6,7 @@ read link
 
 
 
-num=$(($(ls -lR | grep ^d | wc -l)+1))
+num=$(($(ls -lR | grep ^d | wc -l)))
 
 
 
@@ -30,6 +30,8 @@ curr_time="$date $time"
  
 eval mkdir $folder
 eval cp 0_template/*  $folder/
+touch ../README.md
+echo  "Last Participated in $name on $curr_time" > ../README.md
 eval cd $folder/
 
 eval touch details.txt
