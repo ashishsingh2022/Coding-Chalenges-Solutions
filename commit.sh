@@ -8,6 +8,7 @@ read option
 if option="Y"
 then
   git remote set-url origin git@github.com:ashishsingh2022/Competative_Coding.git
+  git remote add origin git@github.com:ashishsingh2022/Competative_Coding.git
   git push -u origin main
 fi
 
