@@ -7,7 +7,10 @@ bool is_prime[2*100000+5];
 void prime_upto_n(INT,bool*);
 
 
-
+void pre_process()
+{
+	
+}
 bool once=false;
 void solve()
 {
@@ -23,6 +26,9 @@ void solve()
 
 int main()
 {
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	pre_process();
     if(once)
         {
             solve();
