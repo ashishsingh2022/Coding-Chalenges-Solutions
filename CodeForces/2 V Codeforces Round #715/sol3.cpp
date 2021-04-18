@@ -6,43 +6,41 @@ INT p=0;
 bool is_prime[2*100000+5];
 void prime_upto_n(INT,bool*);
 
-
+INT ans[3000][3000];
 void pre_process()
 {
-
+    INT i,j;
+    for(i=0;i<3000;i++)
+        {
+            for(j=0;j<3000;j++)ans[i][j]=-1;
+        }
 }
-bool once=false;
+bool once=true;
+
+INT minn(INT arr[],int l,int r)
+{
+    if(ans[l][r]!=-1)return ans[l][r];
+    if(l==r)return 0;
+    if(l+1==r)return arr[r]-arr[l];
+    INT d=arr[r]-arr[l];
+    INT min1=minn(arr,l,r-1);
+    INT min2=minn(arr,l+1,r);
+    ans[l][r]=d+min(min1,min2);
+    return ans[l][r];
+}
 void solve()
 {
     INT n;
     cin>>n;
     INT arr[n];
     INT i;
-    INT odd[n];
-    INT even[n];
-    int o=0;
-    int e=0;
     for(i=0;i<n;i++)
         {
-            INT temp;
-            cin>>temp;
-            if(temp%2==0)
-                {
-                    even[e]=temp;
-                    e++;
-                }
-            else
-                {
-                    odd[o++]=temp;
-                }
+            cin>>arr[i];
         }
-        sort(odd,odd+o);
-        sort(even,even+e);
-        for(i=0;i<o;i++)cout<<odd[i]<<" ";
-        for(i=0;i<e;i++)cout<<even[i]<<" ";
-        cout<<endl;
-
-
+    sort(arr,arr+n);
+    cout<<minn(arr,0,n-1)<<endl;
+    return;
 }
 
 

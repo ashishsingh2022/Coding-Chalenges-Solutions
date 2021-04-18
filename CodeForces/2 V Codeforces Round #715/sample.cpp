@@ -9,40 +9,12 @@ void prime_upto_n(INT,bool*);
 
 void pre_process()
 {
-
+	
 }
 bool once=false;
 void solve()
 {
     INT n;
-    cin>>n;
-    INT arr[n];
-    INT i;
-    INT odd[n];
-    INT even[n];
-    int o=0;
-    int e=0;
-    for(i=0;i<n;i++)
-        {
-            INT temp;
-            cin>>temp;
-            if(temp%2==0)
-                {
-                    even[e]=temp;
-                    e++;
-                }
-            else
-                {
-                    odd[o++]=temp;
-                }
-        }
-        sort(odd,odd+o);
-        sort(even,even+e);
-        for(i=0;i<o;i++)cout<<odd[i]<<" ";
-        for(i=0;i<e;i++)cout<<even[i]<<" ";
-        cout<<endl;
-
-
 }
 
 
