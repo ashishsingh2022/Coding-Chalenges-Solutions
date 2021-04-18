@@ -9,12 +9,16 @@ void prime_upto_n(INT,bool*);
 
 void pre_process()
 {
-	
+
 }
 bool once=false;
 void solve()
 {
     INT n;
+    cin>>n;
+    string s1,s2,s3;
+    cin>>s1>>s2>>s3;
+
 }
 
 

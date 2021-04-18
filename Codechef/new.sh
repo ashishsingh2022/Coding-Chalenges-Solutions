@@ -3,10 +3,12 @@ echo "Contest Name "
 eval read name  
 echo "Contest Link "  
 read link
+echo "Account Name "
+read account
 
 
 
-num=$(($(ls -lR | grep ^d | wc -l)))
+num=$(($(ls -lr | grep ^d | wc -l)))
 
 
 
@@ -24,7 +26,7 @@ do
   folder="$folder\ $val"
 done
 
-date=$(date +%m-%d-%Y)
+date=$(date +%F)
 time=$(date +%T)
 curr_time="$date $time"
  
@@ -38,6 +40,7 @@ eval touch details.txt
 echo $name >> details.txt
 echo $curr_time >> details.txt
 echo $link>>details.txt
+echo $accoung>>details.txt
 echo "---------------------------------------------------" >> details.txt
 echo "Number of Questions Solved = " >> details.txt
 echo "Q1 Number Of Submissions ="    >> details.txt

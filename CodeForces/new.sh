@@ -8,7 +8,7 @@ read account
 
 
 
-num=$(($(ls -lR | grep ^d | wc -l)))
+num=$(($(ls -lr | grep ^d | wc -l)))
 
 
 
