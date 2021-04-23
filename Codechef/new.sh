@@ -35,12 +35,12 @@ eval cp 0_template/*  $folder/
 touch ../README.md
 echo  "Last Participated in $name on $curr_time" > ../README.md
 eval cd $folder/
-
+chmod ugo+w *
 eval touch details.txt
 echo $name >> details.txt
 echo $curr_time >> details.txt
 echo $link>>details.txt
-echo $accoung>>details.txt
+echo $account>>details.txt
 echo "---------------------------------------------------" >> details.txt
 echo "Number of Questions Solved = " >> details.txt
 echo "Q1 Number Of Submissions ="    >> details.txt

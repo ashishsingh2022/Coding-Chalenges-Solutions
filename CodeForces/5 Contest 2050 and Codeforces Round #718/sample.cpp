@@ -9,8 +9,7 @@ void prime_upto_n(INT,bool*);
 
 void pre_process()
 {
-
-
+	
 }
 bool once=false;
 void solve()

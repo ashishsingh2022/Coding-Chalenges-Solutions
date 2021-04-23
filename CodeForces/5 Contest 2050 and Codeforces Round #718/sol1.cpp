@@ -10,12 +10,38 @@ void prime_upto_n(INT,bool*);
 void pre_process()
 {
 
-
+}
+unordered_map<INT,INT>mp;
+INT minn(INT n)
+{
+    if(mp.find(n)!=mp.end())
+        {
+            return mp[n];
+        }
+    INT ans=0;
+    INT res=n/2050;
+    while(res!=0)
+        {
+            INT logg=log10(res);
+            INT poww=pow(10,logg);
+            INT num=res/poww;
+            res-=poww*num;
+            ans+=num;
+        }
+    mp[n]=ans;
+    return mp[n];
 }
 bool once=false;
 void solve()
 {
     INT n;
+    cin>>n;
+    if(n%2050!=0)
+        {
+            cout<<-1<<endl;
+            return;
+        }
+    cout<<minn(n)<<endl;
 }
 
 
