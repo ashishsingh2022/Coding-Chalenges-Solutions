@@ -1,0 +1,14 @@
+Educational Codeforces Round 108
+2021-04-29 20:06:58
+https://codeforces.com/contest/1519
+AKS_1999
+---------------------------------------------------
+Number of Questions Solved = 2 Simple
+Q1 Number Of Submissions =2    Dp or recursion 3d Array.
+Q2 Number Of Submissions =2
+Q3 Number Of Submissions =3 Not solved
+Q4 Number Of Submissions =
+Q5 Number Of Submissions =
+
+
+To Do Queestion No 3,4
