@@ -1,2 +1,19 @@
-1 https://codeforces.com/contest/1519    Qno 4
-2 https://www.codechef.com/LTIME95C      Q no 4,5
+1
+
+https://codeforces.com/contest/1514/problem/C1
+
+
+
+2
+
+https://codeforces.com/contest/1519    Qno 4
+
+
+3 
+https://www.codechef.com/LTIME95C      Q no 4,5
+
+
+4
+https://codeforces.com/contest/1515
+Q4-> Tower
+Q5-> Make n/2 pairs of socks using left/right/color
