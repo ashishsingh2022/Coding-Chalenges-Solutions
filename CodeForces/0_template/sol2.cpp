@@ -2,20 +2,35 @@
 using namespace std;
 typedef long long int INT;
 INT mod=1000000007;
-INT p=0;
-bool is_prime[2*100000+5];
-void prime_upto_n(INT,bool*);
 
 
+// Soln 2
 void pre_process()
 {
 	
 }
+
+
+// Soln 2
 bool once=false;
 void solve()
 {
     INT n;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -43,28 +58,4 @@ int main()
                 }
         }
     return 0;
-}
-
-
-
-void prime_upto_n(INT n,bool is_prime[])
-{
-    INT i;
-    for(i=0;i<=n;i++)is_prime[i]=true;
-    is_prime[1]=false;
-    is_prime[0]=false;
-    for(INT p=2;p*p<=n;p++)
-        {
-            if(is_prime[p])
-                {
-                    for(INT i=p*p;i<=n;i+=p)
-                        {
-                            is_prime[i]=false;
-                        }
-                }
-        }
-    for(INT i=0;i<=n;i++)
-        {
-            if(is_prime[i])cout<<i<<" ";
-        }
 }
