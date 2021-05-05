@@ -17,3 +17,7 @@ https://www.codechef.com/LTIME95C      Q no 4,5
 https://codeforces.com/contest/1515
 Q4-> Tower
 Q5-> Make n/2 pairs of socks using left/right/color
+
+5
+https://codeforces.com/contest/1520
+Q6 -> The ueries given guess the nth 0 
