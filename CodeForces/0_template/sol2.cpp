@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long int INT;
+typedef pair<INT,INT> pr;
 INT mod=1000000007;
 
 
