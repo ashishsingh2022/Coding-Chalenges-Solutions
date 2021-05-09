@@ -1,11 +1,9 @@
 1
-
 https://codeforces.com/contest/1514/problem/C1
 
 
 
 2
-
 https://codeforces.com/contest/1519    Qno 4
 
 
@@ -18,6 +16,17 @@ https://codeforces.com/contest/1520
 Q6 -> The ueries given guess the nth 0 
 Q8 -> The Grid Problem.
 
-5
-https://codeforces.com/contest/1521
-Solve all q upto D 0 questions solved.
+
+
+
+
+
+
+
+
+
+
+
+
+Long Term Goal
+D. Nastia Plays with a Tree  -> https://codeforces.com/contest/1521/problem/D (Trees)

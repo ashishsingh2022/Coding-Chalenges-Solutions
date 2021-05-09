@@ -4,15 +4,15 @@ typedef long long int INT;
 typedef pair<INT,INT> pr;
 INT mod=1000000007;
 
-
-// Soln 2
+// Soln 2  
+// Read question again ,read again.Think will have >2.8k submissions
+// Read question again ,read again.Think will have >2.8k submissions
+// Read question again ,read again.Think will have >2.8k submissions
+// 1st 30 minutes.
 void pre_process()
 {
 	
 }
-
-
-// Soln 2
 bool once=false;
 void solve()
 {

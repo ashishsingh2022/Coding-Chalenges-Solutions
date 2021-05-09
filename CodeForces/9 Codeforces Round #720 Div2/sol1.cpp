@@ -18,11 +18,11 @@ void solve()
 {
     INT a,b;
     cin>>a>>b;
-    /*if(a%b==0)
+    if(b==1)
         {
             cout<<"NO"<<endl;
             return;
-        }*/
+        }
     cout<<"YES"<<endl;
     if(b==2)
         {

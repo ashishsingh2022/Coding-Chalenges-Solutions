@@ -5,17 +5,21 @@ typedef pair<INT,INT> pr;
 INT mod=1000000007;
 
 
-// Soln 1
+// Soln 1 In 1st 10 minutes
+// In 1st 10 minutes
+// In 1st 10 minutes
+// In 1st 10 minutes
+// In 1st 10 minutes
+
 void pre_process()
 {
 	
 }
-
-
-// Soln 1
 bool once=false;
 void solve()
 {
+	
+
     INT n;
 }
 
