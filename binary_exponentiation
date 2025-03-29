@@ -10,3 +10,4 @@ long long binpow(long long a, long long b) {
     }
     return res;
 }
+// https://leetcode.com/problems/apply-operations-to-maximize-score/description/?envType=daily-question&envId=2025-03-29
